@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: #cccccc;
+  width: 15vw;
+  height: 10vh;
+  display: inline-flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  /* margin: auto; */
+  background: #999999;
+  /* flex-grow: 1; */
+  flex: auto
+    /* flex-shrink: 1; */
+}
+
+.second {
+  background: #666666;
+  /* flex-grow: 1; */
+  /* align-self: stretch; */
+  flex: auto;
+  /* flex-shrink: 1; */
+}
+
+.third {
+  flex: auto;
+  /* flex-shrink: 1; */
+  background: #777777;
+}
+
+.four {
+  flex: auto;
+  flex-shrink: 0;
+  background: #888888;
+}
