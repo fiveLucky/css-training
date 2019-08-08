@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #e98282;
+  width: 100vw;
+  height: 100vh;
+}
+
+.float {
+  background: #a85252;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radius {
+  background: #eeeeee;
+  width: 100px;
+  height: 60px;
+  border: 1px solid red;
+  border-radius: 20%
+}
